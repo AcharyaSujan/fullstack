@@ -1,0 +1,43 @@
+# 数据库配置
+db.url=jdbc:mysql://127.0.0.1:3306/egg-edu-api?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+db.username=root
+db.password=root
+
+# 作者
+author=datao
+# 邮箱
+email=jixu65@sina.com
+# 包名配置
+packageParent=com.bhd.online
+# 基础包
+basePackage=com.bhd.online
+# 模块名
+moduleName=
+
+# 表名称
+# 1.模糊查询以%结尾；
+# 2.多张时使用英文逗号分割
+tableName=bbs
+
+# 表前辍
+#tablePrefix=cms_
+tablePrefix=
+
+entity=models
+# 覆盖配置
+# entity是否可覆盖
+entityFileOverride=true
+# mapper是否可覆盖
+mapperFileOverride=false
+# service是否可覆盖
+serviceFileOverride=false
+# controller是否可覆盖
+controllerFileOverride=false
+# param是否可覆盖
+paramFileOverride=false
+# pageParam是否可覆盖
+pageParamFileOverride=false
+# vo文件是否覆盖
+voFileOverride=false
+# 默认字段-param中会忽略不生成
+defaultFields=createTime,createUser,updateTime,updateUser,isDeleted
